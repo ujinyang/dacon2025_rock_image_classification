@@ -1,0 +1,9 @@
+05/25 08:18:17 [INFO] ./ckpt/eva02_base_patch14_448.mim_in22k_ft_in22k_in1k-fold_idx=0-epoch=13-val_loss=0.4401-val_score=0.9150-ema.ckpt loading
+05/25 08:18:17 [INFO] 448
+05/25 08:18:17 [INFO] load_img_size=448
+05/25 08:18:17 [INFO] create_model: eva02_base_patch14_448.mim_in22k_ft_in22k_in1k
+05/25 08:18:18 [INFO] Loading pretrained weights from Hugging Face hub (timm/eva02_base_patch14_448.mim_in22k_ft_in22k_in1k)
+05/25 08:18:18 [INFO] [timm/eva02_base_patch14_448.mim_in22k_ft_in22k_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+05/25 08:18:18 [INFO] Missing keys (head.weight, head.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+05/25 08:18:19 [INFO] ./ckpt/eva02_base_patch14_448.mim_in22k_ft_in22k_in1k-fold_idx=0-epoch=13-val_loss=0.4401-val_score=0.9150-ema.ckpt loading
+05/25 09:03:51 [INFO] ./basslibrary_submit_20250525_0903.csv saved

@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+torch
+torchvision
+transformers
+timm
+wandb
+wand
+opencv-python
+accelerate 
+bitsandbytes
+# !apt install libmagickwand-dev
