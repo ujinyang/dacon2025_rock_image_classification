@@ -15,7 +15,7 @@ cd dacon2025_rock_image_classification
 
 ### 1.2 패키지 설치
 
-wand (ImageMagicK) 의 경우, 추가 라이브러리를 설치하여야 합니다.
+opencv, wand (ImageMagicK) 등의 경우, 추가 라이브러리를 설치하여야 합니다.
 
 ```bash
 sudo apt install -y unzip imagemagick libopencv-dev libmagickwand-dev
@@ -28,8 +28,8 @@ pip install -r requirements.txt
 ├── train
 │   ├── Andesite
 │   │   ├── TRAIN_00000.jpg
-│   │   ├── TRAIN_00000.jpg
 │   │   ├── TRAIN_00001.jpg
+│   │   ├── TRAIN_00002.jpg
 │   ├── ...
 │   └── Etc
 │       └── TRAIN_xxxxx.jpg
@@ -47,11 +47,11 @@ pip install -r requirements.txt
 
 ## 3. 모델 훈련
 
-※ 노트북 파일에 실행결과가 포함되어 있지 않은 대신, 별도의 출력로그를 첨부하였습니다.
+※ 노트북 파일에 실행결과가 완전하게 포함되어 있지 않은 대신, 별도의 출력로그를 첨부하였습니다.
 
 ### 3.1 eva02_base 모델
 
-모델의 학습 파라메터는 아래처럼 설정되어 학습하였습니다.
+모델의 학습 파라메터는 아래처럼 설정하여 학습하였습니다.
 
 ```bash
 CFG = {}
